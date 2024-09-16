@@ -77,7 +77,7 @@ with col2:
 # Create Plotly figure with custom colors
 fig = px.line(filtered_df, x=filtered_df.index, y=['Demand', 'Forecasted Demand'], title='Demand and Forecasted '
                                                                                               'Demand Over Time')
-fig.update_traces(line=dict(color='red'), selector=dict(name='Peak Demand'))
+fig.update_traces(line=dict(color='red'), selector=dict(name='Demand'))
 fig.update_traces(line=dict(color='blue'), selector=dict(name='Forecasted Demand'))
 
 # Disable zoom and pan interactions
