@@ -38,7 +38,7 @@ states = {
 # Dictionary of states and their corresponding CSV files
 
 # Add a title with custom CSS
-st.markdown('<div class="title-section">Hydro Vision</div>', unsafe_allow_html=True)
+st.markdown('<div class="title-section">Hydro Vision-2</div>', unsafe_allow_html=True)
 
 # Create two columns for the selectboxes
 col1, col2 = st.columns(2)
